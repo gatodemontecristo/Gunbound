@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/titillium-regular-webfont.eot");
+  src: url("../fonts/titillium-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/titillium-Bold-webfont.eot");
+  src: url("../fonts/titillium-Bold-webfont.woff") format("woff");
+}
+
+body {
+  font-family: Titillium Web, Verdana, Geneva, sans-serif;
+}
+div {
+  text-align: center;
+}
+h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+h2 span {
+  color: #fc0;
+  font-weight: bold;
+}
+.txt_point {
+  color: #fc0;
+}
+button{
+    padding: 5px;
+    font-size: 25px;
+    color: #fc0;
+    border: 3px solid #fc0;
+    background-color: #72727286;
+}
