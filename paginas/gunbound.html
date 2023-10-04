@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gunbound</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-</head>
-<body>
-    <div>
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <div id="video_area">
+      <video
+        class="mvBG"
+        autoplay="autoplay"
+        loop="loop"
+        autobuffer="autobuffer"
+        muted="muted"
+      >
+        <source src="../videos/gb.webm" type="video/webm" />
+      </video>
+      <div class="dotBg"></div>
+
+      <img id="miLogo" src="../imagenes/gunbound_logo1.png" alt="" />
+      <div id="video_text">
         <h2>a legend is <span>still alive</span></h2>
         <p>Feel thrill and shiver with just one shot!!</p>
-        <br>
         <p>Never experienced thrilling battle!!</p>
-        <p class="txt_point"> Experience right now! </p>
-
+        <p class="txt_point">Experience right now!</p>
+      </div>
+      <a
+        href="https://www.youtube.com/watch?v=X8JXje0DIEo&ab_channel=MMOHuts"
+        target="_blank"
+      >
         <button>Watch the trailer</button>
+      </a>
+
+      <div id="video_servidor">
+        <a href="http://gunbound.softnyx.net/" target="_blank">
+          <div id="servidor01">
+            <p>International service</p>
+            <img src="../imagenes/icon-map.png" alt="" />
+          </div>
+        </a>
+        <a href="http://gunbound.softnyx.net/" target="_blank">
+          <div id="servidor02">
+            <p>Korea service</p>
+            <img src="../imagenes/icon-map.png" alt="" />
+          </div>
+        </a>
+        <a href="http://gunbound.softnyx.net/" target="_blank">
+          <div id="servidor03">
+            <p>Latino service</p>
+            <img src="../imagenes/icon-map.png" alt="" />
+          </div>
+        </a>
+        <a href="http://gunbound.softnyx.net/" target="_blank">
+          <div id="servidor04">
+            <p>Brazil service</p>
+            <img src="../imagenes/icon-map.png" alt="" />
+          </div>
+        </a>
+        <!-- <img src="../imagenes/bg_service1.jpg" alt="">
+        <img src="../imagenes/bg_service2.jpg" alt="">
+        <img src="../imagenes/bg_service3.jpg" alt="">
+        <img src="../imagenes/bg_service4.jpg" alt=""> -->
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
