@@ -65,6 +65,10 @@ div#video_servidor p {
   background-image: url("../imagenes/bg_service1.jpg");
   width: 300px;
   height: 300px;
+  transition-duration: 0.4s;
+}
+#servidor01:hover {
+  transform: scale(1.3,1.3);
 }
 #servidor02 {
   display: flex;
@@ -74,6 +78,10 @@ div#video_servidor p {
   background-image: url("../imagenes/bg_service2.jpg");
   width: 300px;
   height: 300px;
+  transition-duration: 0.4s;
+}
+#servidor02:hover {
+  transform: scale(1.3,1.3);
 }
 #servidor03 {
   display: flex;
@@ -83,6 +91,10 @@ div#video_servidor p {
   background-image: url("../imagenes/bg_service3.jpg");
   width: 300px;
   height: 300px;
+  transition-duration: 0.4s;
+}
+#servidor03:hover {
+  transform: scale(1.3,1.3);
 }
 #servidor04 {
   display: flex;
@@ -92,6 +104,10 @@ div#video_servidor p {
   background-image: url("../imagenes/bg_service4.jpg");
   width: 300px;
   height: 300px;
+  transition-duration: 0.4s;
+}
+#servidor04:hover {
+  transform: scale(1.3,1.3);
 }
 
 div#video_text p {
@@ -135,6 +151,7 @@ div#secciones {
   background-image: url("../imagenes/bg_facebook.jpg");
   width: 600px;
   height: 450px;
+  transition-duration: 0.4s;
 }
 #seccion04 {
   display: flex;
@@ -144,12 +161,15 @@ div#secciones {
   background-image: url("../imagenes/bg_twitter.jpg");
   width: 600px;
   height: 450px;
+  transition-duration: 0.4s;
+}
+#seccion04:hover, #seccion03:hover{
   filter: grayscale(100%);
 }
 #seccion03 p,#seccion04 p{
   font-size: 55px;
   font-weight: bold;
-  color: white;
+ 
 }
 button {
   border-radius: 5px;
@@ -194,9 +214,10 @@ div#video_area {
 
 footer {
   text-align: center;
+  margin-bottom: 70px;
 }
 footer p {
-  padding: 70px 0;
+  padding: 70px 0 0px 0;
   font-size: 20px;
   color: #333;
   font-weight: bold;
