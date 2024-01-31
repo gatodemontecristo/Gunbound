@@ -3,4 +3,7 @@ Pagina web realizado con solo HTML y CSS 	![HTML5](https://img.shields.io/badge/
 
 Arquitectura y Entornos Web Cibertec - Proyecto Gunbound
 
-![screencapture-127-0-0-1-5501-paginas-gunbound-html-2023-10-28-05_24_51](https://github.com/gatodemontecristo/Gunbound/assets/61488294/ec64bb6b-0c2c-4284-8df7-869b6e071d36)
+Mockup : https://shots.so/
+
+![985shots_so](https://github.com/gatodemontecristo/Gunbound/assets/61488294/700a972b-4c11-4ac9-8143-c9e0a71586fc)
+
